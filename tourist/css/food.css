@@ -1,0 +1,140 @@
+*,*::after,*::before{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.food{
+  
+  
+   
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    padding: 50px;
+}
+
+.food .food_heading{
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.food_card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ margin: 20px auto;
+    width: 100%;
+   
+}
+.food_image_box {
+   
+   
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    position: relative;  
+   
+}
+.box-1{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/achcharu-1024x681.jpg');
+}
+.box-2{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/vilage.jpg');
+}
+
+.box-3{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/hoppers.jpg');
+}
+
+.box-4{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/vade\ \(2\).jpg');
+}
+.box-5{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/fruits.jpg');
+}
+.box-6{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/kottu.jpg');
+}
+ .food_text{
+    position: absolute;
+    bottom: 10px;right: 10px;
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+
+
+ /*Footer Designs*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'segoe UI';
+    font-weight: 400;
+    
+    
+}
+
+.footer{
+    margin-top: 10%;
+}
+
+.footer .social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.footer .social a{
+    margin: 0px 12px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    transition: 0.4 ease-in-out;
+}
+
+.footer .social a:hover{
+    color: rgb(255, 81, 0);
+    font-size: 140%;
+}
+
+.footer .listitems ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.footer .listitems ul li{
+    margin: 14px 24px;
+}
+
+.footer.listitems ul li a{
+    text-decoration: none;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Google Sans Regular';
+    box-sizing: border-box;
+}
+
+.head h1{
+    font-size: 2rem;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.image {
+    float: left;
+    width: 40%;
+}
+
+.image_van {
+    position: absolute;
+    width: 70%;
+    right: 15%;
+    top: 20%;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.hed{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin : 100px;
+    padding-left: 55%;
+    font-size: 2rem;
+    
+}
+
+.image {
+    float: left;
+    width: 40%;
+}
+
+.image_bus {
+    position: absolute;
+    width: 70%;
+    right: 15%;
+    top: 70%;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.bu{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin : 100px;
+    padding-left: 55%;
+    font-size: 2rem;
+    
+}
+
+
+.image {
+    float: left;
+    width: 40%;
+}
+
+.image_bike {
+    position: absolute;
+    width: 70%;
+    right: 15%;
+    top: 120%;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.bik{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin : 100px;
+    padding-left: 55%;
+    font-size: 2rem;
+    
+}
+
+.image {
+    float: left;
+    width: 40%;
+}
+
+.image_baja {
+    position: absolute;
+    width: 70%;
+    right: 15%;
+    top: 170%;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.three{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin : 100px;
+    padding-left: 55%;
+    font-size: 2rem;
+    
+}
+
+/*Footer Designs*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'segoe UI';
+    font-weight: 400;
+    
+    
+}
+
+.footer{
+    margin-top: 120%;
+}
+
+.footer .social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.footer .social a{
+    margin: 0px 12px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    transition: 0.4 ease-in-out;
+}
+
+.footer .social a:hover{
+    color: rgb(255, 81, 0);
+    font-size: 140%;
+}
+
+.footer .listitems ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.footer .listitems ul li{
+    margin: 14px 24px;
+}
+
+.footer.listitems ul li a{
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
